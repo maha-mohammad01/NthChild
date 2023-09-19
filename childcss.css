@@ -1,0 +1,60 @@
+ 
+    div.child span div.odd:nth-child(odd){
+        width: 30px;
+        height: 15px;
+        padding: 5px;
+        border: 1px solid black;
+        margin: 5px;
+        background-color:rgb(188, 38, 38);
+    
+        }
+        div.child span div.odd{
+            display: inline-block;
+        }
+         
+        div.child span div.even:nth-child(even){
+            width: 30px;
+            height: 15px;
+            padding: 5px;
+            border: 1px solid black;
+            margin: 5px;
+            }
+            div.child span div.even:nth-child(even){
+                display: none;
+            }    
+    
+            
+               
+    .zigzag :nth-child(odd){
+        background-color: yellow;
+        position: relative;
+    
+    }
+    
+    
+    .zigzag :nth-child(even){
+        background-color: green;
+        position: relative;
+    
+    }
+    
+    
+    
+    
+                    
+    .yellow{
+    width: 40px;
+    height: 40px;
+    position:relative;
+    border: 1px solid black;
+    display: inline-block;
+                    }
+    .green{
+     width: 40px;
+    height: 40px;
+    top: 20px;
+    position:relative;
+    border: 1px solid black;
+    display: inline-block;
+                    }
+    
